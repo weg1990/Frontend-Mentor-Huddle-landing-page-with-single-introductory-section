@@ -157,3 +157,56 @@ img {
 .attribution a:hover {
     color: var(--state-color);
 }
+
+@media only screen and (max-width: 375px) {
+    .inner-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 375px;
+        background-image: var(--mobile-bg);
+    }
+
+    .logo img {
+        width: 100%;
+        max-width: 120px;
+        padding-bottom: 10px;
+    }
+
+    .illustration {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .landing-page-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+
+    .landing-page-text h1, .landing-page-text h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .landing-page-text p {
+        font-size: 12px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .landing-page-text a {
+        width: 100px;
+        text-align: center;
+        font-size: 10px;
+        padding: 10px 30px;
+    }
+
+    .social-links {
+        text-align: center;
+    }
+}
